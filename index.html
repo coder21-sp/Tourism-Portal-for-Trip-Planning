@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>21-Days-21-Projects-1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header role="banner">
+      <div class="container">
+        <nav role="navigation" aria-label="Main Navigation">
+          <h1>ExploreWorld</h1>
+          <ul>
+            <li><a href="#home" aria-current="page">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#booking">Book Now</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Home -->
+    <section id="home" role="region" aria-label="Home Section">
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        class="bg-video"
+        aria-label="Travel background video"
+      >
+        <source
+          src="https://www.pexels.com/download/video/3015510/"
+          type="video/mp4"
+        />
+        Your browser does not support HTML5 video.
+      </video>
+
+      <div class="overlay" aria-hidden="true"></div>
+
+      <div class="home-content container">
+        <h2>Wander the World with Us</h2>
+        <p>
+          Experience unforgettable journeys to the most enchanting destinations.
+          Book your perfect getaway today and make lifelong memories.
+        </p>
+        <a href="#packages" class="btn" aria-label="Explore travel packages">
+          Explore Packages
+        </a>
+      </div>
+    </section>
+
+    <!-- Destinations -->s
+    <section
+      id="destinations"
+      class="section"
+      role="region"
+      aria-labelledby="destinations-heading"
+    >
+      <div class="container">
+        <h2 id="destinations-heading">Popular Destinations</h2>
+        <div class="destinations-grid" role="list">
+          <article class="destination-card" role="listitem">
+            <img
+              src="https://images.pexels.com/photos/460537/pexels-photo-460537.jpeg?h=400&q=60"
+              alt="Big Ben and River Thames in London, United Kingdom"
+            />
+            <h3>London, United Kingdom</h3>
+            <p>
+              Historic landmarks, world-class museums, and royal palaces.
+              Experience the magic of Big Ben, Tower Bridge, and centuries of
+              culture.
+            </p>
+          </article>
+
+          <article class="destination-card" role="listitem">
+            <img
+              src="https://images.pexels.com/photos/3915857/pexels-photo-3915857.jpeg?h=400&q=60"
+              alt="Dubai skyline with Burj Khalifa at sunset"
+            />
+            <h3>Dubai, UAE</h3>
+            <p>
+              Stunning modern architecture meets Arabian luxury. Enjoy desert
+              safaris, shopping, and the world's tallest building in this
+              vibrant oasis.
+            </p>
+          </article>
+
+          <article class="destination-card" role="listitem">
+            <img
+              src="https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?h=400&q=60"
+              alt="Sagrada Familia and Barcelona cityscape"
+            />
+            <h3>Barcelona, Spain</h3>
+            <p>
+              Gaudí's masterpieces, vibrant beaches, and Mediterranean charm.
+              Discover art, architecture, and the energy of this dynamic coastal
+              city.
+            </p>
+          </article>
+
+          <article class="destination-card" role="listitem">
+            <img
+              src="https://images.pexels.com/photos/256887/pexels-photo-256887.jpeg?h=400&q=60"
+              alt="Ancient Roman Colosseum in Rome"
+            />
+            <h3>Rome, Italy</h3>
+            <p>
+              The eternal city of ancient wonders and Renaissance art. Walk
+              through history with iconic landmarks, food, and timeless beauty.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Packages -->
+    <section
+      id="packages"
+      class="section"
+      role="region"
+      aria-labelledby="packages-heading"
+    >
+      <div class="container">
+        <h2 id="packages-heading">Our Packages</h2>
+        <div class="packages-grid" role="list">
+          <article class="package" role="listitem">
+            <img
+              src="https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg?h=400&q=60"
+              alt="European cities tour package"
+            />
+            <h3>Europe Explorer</h3>
+            <p>10 Days | Starting from ₹87,600</p>
+            <button aria-label="Book Europe Explorer package">Book Now</button>
+          </article>
+
+          <article class="package" role="listitem">
+            <img
+              src="https://images.pexels.com/photos/2398220/pexels-photo-2398220.jpeg?h=400&q=60"
+              alt="Maldives tropical island package"
+            />
+            <h3>Maldives Paradise</h3>
+            <p>7 Days | Starting from ₹65,700</p>
+            <button aria-label="Book Maldives Paradise package">
+              Book Now
+            </button>
+          </article>
+
+          <article class="package" role="listitem">
+            <img
+              src="https://images.pexels.com/photos/1838897/pexels-photo-1838897.jpeg?h=400&q=60"
+              alt="Tokyo city skyscrapers package"
+            />
+            <h3>Tokyo Delight</h3>
+            <p>5 Days | Starting from ₹80,300</p>
+            <button aria-label="Book Tokyo Delight package">Book Now</button>
+          </article>
+
+          <article class="package" role="listitem">
+            <img
+              src="https://images.pexels.com/photos/3555615/pexels-photo-3555615.jpeg?h=400&q=60"
+              alt="Rome historic landmarks package"
+            />
+            <h3>Rome Italy</h3>
+            <p>8 Days | Starting from ₹78,500</p>
+            <button aria-label="Book Rome Italy package">Book Now</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section
+      id="testimonials"
+      class="section"
+      role="region"
+      aria-labelledby="testimonials-heading"
+    >
+      <div class="container">
+        <h2 id="testimonials-heading">What Our Travelers Say</h2>
+        <div class="testimonials-grid" role="list">
+          <blockquote class="testimonial" role="listitem">
+            <i class="fa-solid fa-quote-left fa-2x" aria-hidden="true"></i>
+            <p>
+              “ExploreWorld made our honeymoon unforgettable! Everything was
+              perfectly arranged.”
+            </p>
+            <h4>- Priya & Rahul</h4>
+          </blockquote>
+
+          <blockquote class="testimonial" role="listitem">
+            <i class="fa-solid fa-quote-left fa-2x" aria-hidden="true"></i>
+            <p>
+              “Highly professional service! Our Europe trip was amazing. Totally
+              recommended!”
+            </p>
+            <h4>- Aman Verma</h4>
+          </blockquote>
+
+          <blockquote class="testimonial" role="listitem">
+            <i class="fa-solid fa-quote-left fa-2x" aria-hidden="true"></i>
+            <p>
+              “Affordable, easy, and wonderful experience from booking to
+              travel.”
+            </p>
+            <h4>- Neha Sharma</h4>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section
+      id="booking"
+      role="form"
+      aria-labelledby="booking-heading"
+      aria-describedby="booking-desc"
+    >
+      <div class="container">
+        <h2 id="booking-heading">Book Your Trip</h2>
+        <p id="booking-desc" style="text-align: center; margin-bottom: 20px">
+          Fill out your details and we’ll get back to you shortly.
+        </p>
+        <form aria-label="Booking form">
+          <label for="fullname" class="visually-hidden">Full Name</label>
+          <input type="text" id="fullname" placeholder="Full Name" required />
+
+          <label for="email" class="visually-hidden">Email Address</label>
+          <input type="email" id="email" placeholder="Email Address" required />
+
+          <label for="phone" class="visually-hidden">Phone Number</label>
+          <input type="tel" id="phone" placeholder="Phone Number" required />
+
+          <label for="destination" class="visually-hidden">Destination</label>
+          <select id="destination" required>
+            <option value="">Select Destination</option>
+            <option>Paris</option>
+            <option>Bali</option>
+            <option>New York</option>
+            <option>Tokyo</option>
+          </select>
+
+          <label for="message" class="visually-hidden">Message</label>
+          <textarea
+            id="message"
+            placeholder="Message or Special Request"
+            rows="4"
+          ></textarea>
+
+          <button type="submit" aria-label="Submit booking form">
+            Submit Booking
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+      <div class="container footer-container">
+        <div>
+          <h3>About ExploreWorld</h3>
+          <p>
+            Your trusted partner in creating unforgettable travel experiences.
+            We connect you with the world's most enchanting destinations and
+            provide expert travel planning services to make your journey
+            seamless.
+          </p>
+          <div style="margin-top: 15px">
+            <a href="#" style="color: #fff; margin-right: 15px"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="#" style="color: #fff; margin-right: 15px"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" style="color: #fff; margin-right: 15px"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="#" style="color: #fff"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#booking">Booking</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Contact Us</h3>
+          <p><i class="fa-solid fa-phone"></i> +91 9876543210</p>
+          <p><i class="fa-solid fa-envelope"></i> support@exploreworld.com</p>
+          <p><i class="fa-solid fa-map-marker"></i> Mumbai, India</p>
+        </div>
+
+        <div>
+          <h3>Find Us</h3>
+          <iframe
+            title="ExploreWorld Office Location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.8934526321393!2d72.82765!3d18.9676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce70e0e0e0e1%3A0x0!2sMumbai%2C%20India!5e0!3m2!1sen!2sin!4v1680000000000"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2026 ExploreWorld - Travel Experiences Beyond Imagination. All rights
+        reserved.
+      </div>
+    </footer>
+  </body>
+</html>
